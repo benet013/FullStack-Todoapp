@@ -21,9 +21,9 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-# CORS_ALLOWED_ORIGINS = [
-#     "https://task-manager-benet.onrender.com"
-# ]
+CORS_ALLOWED_ORIGINS = [
+    "https://fullstack-todoapp-3.onrender.com/",
+]
 
 STORAGES = {
     "default": {
