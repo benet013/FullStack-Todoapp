@@ -12,7 +12,7 @@ function TaskManagerForm() {
     useEffect(() => {
         const fetchTasks = async () => {
             try {
-                const response = await api.get('/api/task/');
+                const response = await api.get('/task/');
                 setTaskList(response.data);
             } catch (error) {
                 console.error("Error fetching tasks:", error);
@@ -24,7 +24,7 @@ function TaskManagerForm() {
 
     const createTask = async (task) => {
         try {
-            const response = await api.post('/api/task/', { task: task });
+            const response = await api.post('/task/', { task: task });
             console.log("Created task:", response.data);
             setTaskList(prev => [...prev, response.data])
         } catch (error) {
@@ -34,7 +34,7 @@ function TaskManagerForm() {
 
     const editTask = async (id, updatedTask) => {
         try {
-            const response = await api.put(`/api/task/${id}/`, { task: updatedTask }); 
+            const response = await api.put(`/task/${id}/`, { task: updatedTask }); 
             console.log("Edited task:", response.data);
         } catch (error) {
             console.error("Error editing task:", error);
@@ -43,7 +43,7 @@ function TaskManagerForm() {
 
     const deleteTask = async (id) => {
         try {
-            const response = await api.delete(`/api/task/${id}/`);
+            const response = await api.delete(`/task/${id}/`);
             console.log("Deleted task:", response.data);
         }
         catch (error) {

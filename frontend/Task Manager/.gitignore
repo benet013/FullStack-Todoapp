@@ -22,7 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-backend/env/
-backend/todoapp/db.sqlite3
-.env
