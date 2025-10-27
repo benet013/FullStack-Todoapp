@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.app-container {
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100%;
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-container {
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-form{
+    background-color: whitesmoke;
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.auth-form h2{
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.auth-form input {
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 90%
+}
+
+.auth-form button {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: skyblue;
+    cursor: pointer;
+    width: 100%;
+}
+
+.app {
+    background-color: whitesmoke;
+    width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.app-title {
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+form input {
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 5px;
+    width: 76%
+}
+
+form button {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: bisque;
+    cursor: pointer;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.task button {
+    margin-left: 5px;
+    border-radius: 200px;
+    opacity: 50%;
+}
+
+.task svg {
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.logout-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+.signup-or-signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.signup-or-signin a{
+    margin-left: 10px;
+    color: blue;
+    cursor: pointer;
+}
