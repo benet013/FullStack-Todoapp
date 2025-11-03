@@ -82,7 +82,7 @@ This project is licensed under the MIT License, see the included `LICENSE` file 
 
 ## Authors
 
-*   [Benet Uchechukwu](https://github.com/benet013)
+*   [benet013](https://github.com/benet013)
 
 ## Acknowledgments
 
@@ -98,3 +98,4 @@ This project utilized the following technologies and libraries:
 *   Make sure the database is up and running
 *   Ensure correct database credentials are provided
 *   Run `npm run build` and `npm run start` in the project root
+
